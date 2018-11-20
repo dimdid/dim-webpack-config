@@ -5,10 +5,10 @@
 
 Default config test :  
 - layout (hbs) : `handlebars-loader`
-- style : `(sass,post,css)-loader`
-- svg :     `svg-sprite-loader`
-- img :     `(url|file)-loader`
-- font :    `file-loader`
+- style :        `(sass,post,css)-loader`
+- svg :          `svg-sprite-loader`
+- img :          `(url|file)-loader`
+- font :         `file-loader`
 
 with plugins :  
 - svg-sprite-loader/plugin
@@ -22,7 +22,7 @@ with plugins :
 
 ## Usage
 ~~~sh
-npm i -D <clonePath>
+npm i -D https://github.com/dimdid/dim-webpack-config.git
 ~~~
 
 ~~~js
