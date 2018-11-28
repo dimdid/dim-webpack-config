@@ -1,4 +1,4 @@
-#dim-webpack-config
+# dim-webpack-config
 ready" to use default webpack.config + loaders
 
 > all needed webpack dependencies in same place
@@ -34,6 +34,7 @@ module.exports = new WebpackConfig();
 
 ## Configuration
 
+### new WebpackConfig(context, entries, opts)
 
 Param | Type | Default | Description
 :---: | :---: | :-----: | :---------
@@ -45,6 +46,6 @@ Param | Type | Default | Description
 `opts.overwrite` | `{object}` | `{}` | Overwrite defaults properties.
 `opts.optiSplit` | `{boolean}` | TODO | split runtime, core(initial) and vendors
 
-##TODO
+## TODO
 
 - [ ] export plugins specifique config into there files (purge, postcss...)
