@@ -1,1 +1,2 @@
-module.exports = require('./lib/WebpackConfig');
+const config = require('./lib/WebpackConfig');
+module.exports = config;
