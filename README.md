@@ -1,5 +1,5 @@
 # dim-webpack-config
-ready" to use default webpack.config + loaders
+a "ready" to use default webpack.config + loaders
 
 > all needed webpack dependencies in same place
 
