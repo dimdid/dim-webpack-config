@@ -29,7 +29,7 @@ npm i -D https://github.com/dimdid/dim-webpack-config.git
 /* webpack.config.js */
 const WebpackConfig = require('dim-webpack-config');
 
-module.exports = new WebpackConfig();
+module.exports = new WebpackConfig(process.cwd());
 ~~~
 
 ## Configuration
@@ -37,8 +37,8 @@ module.exports = new WebpackConfig();
 
 Param | Type | Default | Description
 :---: | :---: | :-----: | :---------
-`context` | `{string}` | `process.cwd` | Root for paths resolution.<br>All relatives path are relative to him.
-`entries` | `{string\|array\|object}` | `'./index.js'` | Entries paths
+`context` | `{string}` | `process.cwd` | Root for paths resolution.<br>All relatives path are relative to him.<br>Required.
+`entries` | `{string\|array\|object}` | `'./index.js'` | Entries paths <br>Required.
 `opts.outputPath` | `{string}` | `${context}/dist\` | Absolute output path
 `opts.htmlPluginsOptions` | `{object}` | `none` | Option for html-webpack-plugin.<br>if none is passed, webpack don't use that plugin.
 `opts.usedOfCss` | {glob pattern} | `\`${context}/src/*\`` | path where find usage of styles
